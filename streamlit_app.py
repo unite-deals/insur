@@ -11,8 +11,8 @@ from langchain import PromptTemplate
 import openai
 import os
 
-from dotenv import load_dotenv, find_dotenv
-_ = load_dotenv(find_dotenv())
+#from dotenv import load_dotenv, find_dotenv
+#_ = load_dotenv(find_dotenv())
 
 openai.api_key = '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'
 
